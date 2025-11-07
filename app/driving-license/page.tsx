@@ -13,7 +13,7 @@ interface LicenseDetails {
   issueDate: string;
   expiryDate: string;
   bloodGroup: string;
-
+  address: string;
   imageUrl: string;
 }
 
@@ -27,6 +27,7 @@ const mockLicenseData: { [key: string]: LicenseDetails } = {
     licenseType: 'LTV,HTV',
     issueDate: '2022-01-15',
     expiryDate: '2027-01-14',
+    address: "null",
     bloodGroup: 'O+',
     imageUrl: '/download.jpeg'
   },
@@ -261,4 +262,5 @@ export default function DrivingLicenseVerification() {
     </div>
   );
 }
+
 
