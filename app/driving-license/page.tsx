@@ -43,6 +43,18 @@ const mockLicenseData: { [key: string]: LicenseDetails } = {
     bloodGroup: 'O+',
     imageUrl: '/1.jpeg'
   },
+  '212033576545-5': {
+    cnic: '21203-3576545-5',
+    name: 'SHOAIB KHAN',
+    fatherName: 'MAIN GUL',
+    licenseNumber: '00000015765',
+    licenseType: 'HTV',
+    issueDate: '2025-02-12',
+    expiryDate: '2030-02-05',
+    address: "null",
+    bloodGroup: 'N/A',
+    imageUrl: '/1.jpeg'
+  },
  
 };
 
@@ -274,6 +286,7 @@ export default function DrivingLicenseVerification() {
     </div>
   );
 }
+
 
 
 
