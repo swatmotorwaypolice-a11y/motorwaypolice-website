@@ -67,6 +67,58 @@ const mockLicenseData: { [key: string]: LicenseDetails } = {
     bloodGroup: 'N/A',
     imageUrl: '/Akh.JPG'
   },
+  
+  '2120363981105': {
+    cnic: '21203-6398110-5',
+    name: 'KHALIL UR RAHMAN',
+    fatherName: 'HAJI RAHMAN',
+    licenseNumber: '00000042994',
+    licenseType: 'LTV,HTV ONLY',
+    issueDate: '2025-02-13',
+    expiryDate: '2030-01-18',
+    address: "null",
+    bloodGroup: 'N/A',
+    imageUrl: '/k.jpg'
+  },
+  
+  '2120399645695': {
+    cnic: '21203-9964569-5',
+    name: 'SAFEER ULLAH',
+    fatherName: 'SAIF ULREHMAN',
+    licenseNumber: '00000042387',
+    licenseType: 'LTV,HTV ONLY',
+    issueDate: '2025-03-09',
+    expiryDate: '2030-02-26',
+    address: "null",
+    bloodGroup: 'N/A',
+    imageUrl: '/s.jpg'
+  },
+  
+  '4240151782795': {
+    cnic: '42401-5178279-5',
+    name: 'ZARDULLAH KHAN',
+    fatherName: 'SYED AHMED',
+    licenseNumber: '00000032467',
+    licenseType: 'HTV ONLY',
+    issueDate: '2025-02-27',
+    expiryDate: '2030-02-15',
+    address: "null",
+    bloodGroup: 'N/A',
+    imageUrl: '/z.jpg'
+  },
+  
+  '2120371695539': {
+    cnic: '21203-7169553-9',
+    name: 'ZAKIR KHAN',
+    fatherName: 'GULAB SAID',
+    licenseNumber: '00000042854',
+    licenseType: 'HTV ONLY',
+    issueDate: '2025-02-27',
+    expiryDate: '2030-01-22',
+    address: "null",
+    bloodGroup: 'N/A',
+    imageUrl: '/za.jpeg'
+  },
  
 };
 
@@ -298,6 +350,7 @@ export default function DrivingLicenseVerification() {
     </div>
   );
 }
+
 
 
 
