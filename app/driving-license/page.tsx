@@ -65,7 +65,7 @@ const mockLicenseData: { [key: string]: LicenseDetails } = {
     expiryDate: '2030-02-26',
     address: "null",
     bloodGroup: 'N/A',
-    imageUrl: '/a.JPG'
+    imageUrl: '/7.JPG'
   },
  
 };
@@ -298,6 +298,7 @@ export default function DrivingLicenseVerification() {
     </div>
   );
 }
+
 
 
 
