@@ -55,6 +55,18 @@ const mockLicenseData: { [key: string]: LicenseDetails } = {
     bloodGroup: 'N/A',
     imageUrl: '/5.jpg'
   },
+  '2120342246557': {
+    cnic: '21203-4224655-7',
+    name: 'AKHTAR FARAZ',
+    fatherName: 'TAJ AKBAR',
+    licenseNumber: '00000013298',
+    licenseType: 'LTV ONLY',
+    issueDate: '2025-02-09',
+    expiryDate: '2030-02-26',
+    address: "null",
+    bloodGroup: 'N/A',
+    imageUrl: '/a.jpg'
+  },
  
 };
 
@@ -286,6 +298,7 @@ export default function DrivingLicenseVerification() {
     </div>
   );
 }
+
 
 
 
