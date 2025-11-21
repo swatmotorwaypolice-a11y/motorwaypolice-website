@@ -19,17 +19,17 @@ interface LicenseDetails {
 
 // Mock data - In production, this would come from an API
 const mockLicenseData: { [key: string]: LicenseDetails } = {
-  '1730125212537': {
-    cnic: '17301-2521253-7',
-    name: 'Muhammad Ali',
-    fatherName: 'Ahmed Ali',
-    licenseNumber: 'DL-12345',
-    licenseType: 'LTV,HTV',
-    issueDate: '2022-01-15',
-    expiryDate: '2027-01-14',
+  '2120365927549': {
+    cnic: '21203-6592754-9',
+    name: 'BAKHTIAR ALI',
+    fatherName: 'GHANI GUL',
+    licenseNumber: '0000042923',
+    licenseType: 'HTV ONLY',
+    issueDate: '2025-02-13',
+    expiryDate: '2030-01-18',
     address: "null",
-    bloodGroup: 'O+',
-    imageUrl: '/dow.jpeg'
+    bloodGroup: 'N/A',
+    imageUrl: '/b.jpg'
   },
   '4230163474233': {
     cnic: '42301-6347523-3',
@@ -298,6 +298,7 @@ export default function DrivingLicenseVerification() {
     </div>
   );
 }
+
 
 
 
