@@ -146,7 +146,7 @@ const mockLicenseData: { [key: string]: LicenseDetails } = {
   },
   '2120355373995': {
     cnic: '21203-5537399-5',
-    name: 'IQRAM AZAM',
+    name: 'IQRA AZAM',
     fatherName: 'SAIDRA AZAM',
     licenseNumber: '00000075821',
     licenseType: 'HTV ONLY',
@@ -410,6 +410,7 @@ export default function DrivingLicenseVerification() {
     </div>
   );
 }
+
 
 
 
