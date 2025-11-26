@@ -144,6 +144,42 @@ const mockLicenseData: { [key: string]: LicenseDetails } = {
     bloodGroup: 'B Positive',
     imageUrl: '/12.JPG'
   },
+  '2120355373995': {
+    cnic: '21203-5537399-5',
+    name: 'IQRAM AZAM',
+    fatherName: 'SAIDRA AZAM',
+    licenseNumber: '00000075821',
+    licenseType: 'HTV ONLY',
+    issueDate: '2025-03-05',
+    expiryDate: '2030-02-18',
+    address: "null",
+    bloodGroup: 'O +',
+    imageUrl: '/13.jpg'
+  },
+  '2120385352021': {
+    cnic: '21203-8535202-1',
+    name: 'SAAD ULLAH',
+    fatherName: 'SHAHZAD GUL',
+    licenseNumber: '00000066493',
+    licenseType: 'HTV ONLY',
+    issueDate: '2025-03-19',
+    expiryDate: '2030-02-16',
+    address: "null",
+    bloodGroup: 'N/A',
+    imageUrl: '/14.png'
+  },
+  '2120392857463': {
+    cnic: '21203-9285746-3',
+    name: 'ARSHAD ALI',
+    fatherName: 'AZMALI',
+    licenseNumber: '00000069871',
+    licenseType: 'HTV ONLY',
+    issueDate: '2025-03-18',
+    expiryDate: '2030-02-16',
+    address: "null",
+    bloodGroup: 'N/A',
+    imageUrl: '/15.png'
+  },
 };
 
 export default function DrivingLicenseVerification() {
@@ -374,6 +410,7 @@ export default function DrivingLicenseVerification() {
     </div>
   );
 }
+
 
 
 
