@@ -202,7 +202,7 @@ const mockLicenseData: { [key: string]: LicenseDetails } = {
     expiryDate: '2030-03-12',
     address: "null",
     bloodGroup: 'N/A',
-    imageUrl: '/12.png'
+    imageUrl: '/sa.png'
   },
   '2120397473809': {
     cnic: '21203-9747380-9',
@@ -446,6 +446,7 @@ export default function DrivingLicenseVerification() {
     </div>
   );
 }
+
 
 
 
