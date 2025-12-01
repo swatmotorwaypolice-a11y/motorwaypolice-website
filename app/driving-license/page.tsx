@@ -216,6 +216,18 @@ const mockLicenseData: { [key: string]: LicenseDetails } = {
     bloodGroup: 'N/A',
     imageUrl: '/sadam.jpeg'
   },
+  '2240151229315': {
+    cnic: '22401-5122931-5',
+    name: 'ABDUL QADIR',
+    fatherName: 'GUL AMIN',
+    licenseNumber: '00000024679',
+    licenseType: 'LTV ONLY',
+    issueDate: '2024-12-09',
+    expiryDate: '2029-12-26',
+    address: "null",
+    bloodGroup: 'N/A',
+    imageUrl: '/abdul.jpeg'
+  },
 };
 
 export default function DrivingLicenseVerification() {
@@ -446,6 +458,7 @@ export default function DrivingLicenseVerification() {
     </div>
   );
 }
+
 
 
 
