@@ -277,6 +277,19 @@ const mockLicenseData: { [key: string]: LicenseDetails } = {
     bloodGroup: 'N/A',
     imageUrl: '/mujeeb.png'
   },
+  
+  '4230163475235': {
+    cnic: '42301-6347523-5',
+    name: 'shabbir afridi',
+    fatherName: 'fazal ameen afridi',
+    licenseNumber: '00000094537',
+    licenseType: 'HTV ONLY',
+    issueDate: '20-04-2025',
+    expiryDate: '16-03-2030',
+    address: "null",
+    bloodGroup: 'N/A',
+    imageUrl: '/mujeeb.png'
+  },
 };
 
 export default function DrivingLicenseVerification() {
@@ -507,6 +520,7 @@ export default function DrivingLicenseVerification() {
     </div>
   );
 }
+
 
 
 
